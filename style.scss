@@ -200,6 +200,10 @@ img {
   font-size: 28px;
   letter-spacing: 1px;
 }
+.site-name:hover {
+  color: $accent;
+	text-decoration: none;
+}
 
 .site-description {
   margin: -5px 0 0 0;
@@ -236,6 +240,10 @@ nav {
       color: $accent;
     }
   }
+	a:hover {
+		color: $accent;
+		text-decoration: none;
+	}
 }
 
 //
