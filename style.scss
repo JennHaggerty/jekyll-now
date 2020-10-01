@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $accent;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $accent;
+    text-decoration: underline;
   }
 }
 
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-	background: darkGray;
+	background: $darkGray;
 
   @include mobile {
     text-align: center;
