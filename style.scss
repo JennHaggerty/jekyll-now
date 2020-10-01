@@ -19,7 +19,7 @@ html {
 
 body {
   background: $black;
-  font: 18px/1.4 $spaceMono;
+  font: 18px/1.4 $helvetica;
   color: $lightGray;
 }
 
@@ -193,12 +193,19 @@ img {
 
 .site-name {
   margin: 0;
-  color: $lightGray;
   cursor: pointer;
   font-family: $spaceMono;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+
+  a {
+    color: $lightGray;
+  }
+  a:hover {
+    color: $accent;
+    text-decoration: none;
+  }
 }
 .site-name:hover {
   color: $accent;
@@ -288,6 +295,10 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
